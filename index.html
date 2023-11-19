@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>therealpomodoro</title>
-    <link rel="stylesheet" href="../static/index.css">
+    <link rel="stylesheet" href="./static/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    <script src="../static/threemin/three.min.js"></script>
-    <script src="../static/threemin/OrbitControls.js"></script>
-    <script src="../static/threemin/RGBELoader.js"></script>
-    <script src="../static/threemin/GLTFLoader.js"></script>
-    <script type="text/javascript" src="../static/howler.min.js"></script>
+    <script src="./static/threemin/three.min.js"></script>
+    <script src="./static/threemin/OrbitControls.js"></script>
+    <script src="./static/threemin/RGBELoader.js"></script>
+    <script src="./static/threemin/GLTFLoader.js"></script>
+    <script type="text/javascript" src="./static/howler.min.js"></script>
 </head>
 <body>
 
@@ -101,7 +101,7 @@
 </body>
 
 <!-- JS SCRIPT FROM HERE -->
-<script src="../static/index.js"></script>
+<script src="./static/index.js"></script>
 <script>
     // Global Variables 
     let model_top = null
@@ -123,12 +123,12 @@
     let time_at_current = null 
     // Sounds
     var ticking = new Howl({
-        urls: ['../static/final_loop.ogg','../static/final_loop.mp3'],
+        urls: ['./static/final_loop.ogg','./static/final_loop.mp3'],
         autoplay: false,
         loop: true
       });
     var alaram = new Howl({
-        urls: ['../static/alaram.ogg','../static/alaram.mp3'],
+        urls: ['./static/alaram.ogg','./static/alaram.mp3'],
         autoplay: false,
         loop: false
       });
@@ -304,7 +304,7 @@
 
     // GLTF LOADING
     const loader =new THREE.GLTFLoader();
-    loader.load('../static/3dModels/pomodaro_bottom.gltf',function(gltf){
+    loader.load('./static/3dModels/pomodaro_bottom.gltf',function(gltf){
         model=gltf.scene.children[0];
         model.scale.set(1,1,1)
         model.position.set(0,0,0);
@@ -322,7 +322,7 @@
         scene.add(model);
     });
 
-    loader.load('../static/3dModels/pomodaro_top.gltf',function(gltf){
+    loader.load('./static/3dModels/pomodaro_top.gltf',function(gltf){
         model=gltf.scene.children[0];
         model.scale.set(1,1,1)
         model.position.set(0,0.3804,0);

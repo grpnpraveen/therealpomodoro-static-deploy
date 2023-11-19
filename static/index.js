@@ -50,7 +50,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 // renderer.setSize(1080, 500,false);
 
 // const hdrloader=new THREE.RGBELoader();
-// hdrloader.load('../static/1.hdr',function(hdrtexture){
+// hdrloader.load('./static/1.hdr',function(hdrtexture){
 //     hdrtexture.mapping=THREE.EquirectangularReflectionMapping;
 
 //     scene.environment=hdrtexture;
