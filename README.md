@@ -1,4 +1,4 @@
-Deployed @ therealpomodoro.online
+Deployed @ https://therealpomodoro.online
 
 🎨 Designing the Pomodoro Universe: A Figma Journey! 🖌️
 
