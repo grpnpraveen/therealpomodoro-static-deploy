@@ -1,3 +1,5 @@
+Deployed @ therealpomodoro.online
+
 🎨 Designing the Pomodoro Universe: A Figma Journey! 🖌️
 
 Hello, creative minds! 👋 As we continue the exciting adventure of crafting a 3D Pomodoro experience using Blender and Three.js, it's time to pull back the curtain on the Figma process. Designing the user interface and experience is a crucial part of this project, and Figma has been my trusty companion throughout. Here's a peek into the design phase. 
