@@ -1,4 +1,4 @@
-Deployed @ https://therealpomodoro.online
+Deployed @ [https://therealpomodoro.online](https://grpnpraveen.github.io/therealpomodoro-static-deploy/)]
 
 🎨 Designing the Pomodoro Universe: A Figma Journey! 🖌️
 
